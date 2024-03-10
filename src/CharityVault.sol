@@ -4,8 +4,8 @@ pragma solidity 0.8.20;
 import {ERC4626} from "solmate/src/tokens/ERC4626.sol";
 import {ERC20} from "solmate/src/tokens/ERC20.sol";
 import {FixedPointMathLib} from "solmate/src/utils/FixedPointMathLib.sol";
-import {MockETH} from "./MockETH.sol";
 import {SafeTransferLib} from "solmate/src/utils/SafeTransferLib.sol";
+import {MockETH} from "./MockETH.sol";
 
 /**
  * @title CharityVault
@@ -148,7 +148,7 @@ contract CharityVault is ERC4626 {
      */
     function speedrunYield() public {
         MockETH mockETH = MockETH(assetAddress);
-        mockETH.mint(address(this), 500000000);
+        mockETH.mint(address(this), 5 * 1e18);
     }
 
     /**
