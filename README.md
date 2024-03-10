@@ -1,4 +1,4 @@
-## FairCoin
+## FairDAO
 
 Automating donations to impactful blockchain initiatives through Ethereum staking.
 
