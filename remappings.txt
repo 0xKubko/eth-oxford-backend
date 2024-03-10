@@ -1,0 +1,4 @@
+@openzeppelin/=lib/openzeppelin-contracts/contracts/
+solmate/=lib/solmate/
+openzeppelin-solidity-2.3.0/=lib/openzeppelin-contracts-02/
+synthetix/=lib/synthetix/contracts/
