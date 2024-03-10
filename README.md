@@ -1,6 +1,8 @@
 ## FairCoin
 
-to-do
+Automating donations to impactful blockchain initiatives through Ethereum staking.
+
+Project built for ETH Oxford
 
 ### Build
 
